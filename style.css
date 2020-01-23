@@ -1,0 +1,32 @@
+.section-std {
+    margin-bottom: 30px;
+}
+
+.section-std h2 {
+    margin-bottom: 20px;
+}
+
+.section-std p {
+    font-size: 20px;
+}
+
+.section-std li {
+    font-size: 20px;
+}
+
+.section-std img {
+    margin-top: 15px;
+}
+
+.section-std .figure-caption {
+    margin-bottom: 20px;
+}
+
+.audio-sample {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.section-std .audio-sample p {
+    font-size: 90%;
+}
