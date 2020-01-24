@@ -1,9 +1,5 @@
 overflow-x: hidden;
 
-.section-std {
-    margin-bottom: 30px;
-}
-
 .section-std h2 {
     margin-bottom: 20px;
 }
@@ -36,4 +32,16 @@ overflow-x: hidden;
 a {
     word-break: break-word;
     overflow-wrap: break-word;
+}
+
+.section-std ul {
+    padding-left: 21px;
+}
+
+section.section-std {
+    padding-bottom: 60px;
+}
+
+.subsection {
+    padding-bottom: 30px;
 }
