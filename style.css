@@ -32,3 +32,8 @@ overflow-x: hidden;
 .section-std .audio-sample p {
     font-size: 90%;
 }
+
+a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
