@@ -196,29 +196,34 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2>Contacts</h2> 
-						<p>Retrouvez les informations d'Opération Environnement sur <a rel="noopener" href="https://twitter.com/ope_envir_stmed" target="_blank">TWITTER</a> &gt; <a rel="noopener" href="https://twitter.com/ope_envir_stmed" target="_blank">@ope_envir_stmed</a></p>
 					</div>
 					<div class="col-md-12">
 						<p>Vous êtes témoin d'une situation de nuisance sonore ou écologique sur la ville de Saint-Médard-en-Jalles ? Faites nous parvenir vos informations et signalements via notre formulaire ci-dessous:</p>
-						<form action="https://formspree.io/operation.environnement@gmail.com" method="post">
-							<fieldset id="fs-frm-inputs">
-								<div class="form-group">
-									<label for="InputEmail">Votre adresse eMail</label>
-									<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Entrez votre eMail" required name="email"/>
-									<small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse email.</small>
-								</div>
-								<div class="form-group"> 
-									<label for="Titre">Titre de votre message</label>									 
-									<textarea placeholder="exemple: Signalement de bruit sur Corbiac le 11 février 2020 vers 11H00" required="" class="form-control" rows="1" name="titre" id="titre"></textarea> 
-								</div>
-								<div class="form-group"> 
-									<label for="Message">Votre Message</label>									 
-									<textarea placeholder="exemple: Bruit de vrombissement continu en provenance de la zone aéroport entendu de 11H00 à 12H30 le 11 février 2020. Ce n'était pas un avion." required="" class="form-control" rows="3" name="message" id="message"></textarea> 
-								</div>
-							</fieldset>
-							<button type="submit" class="btn btn-primary">Envoyer votre message</button>
-						</form>
-						<p style="margin-top: 30px;"><b>Important</b>: Vous pouvez également nous joindre directement par <a rel="noopener" href="mailto:operation.environnement@gmail.com">EMAIL</a> à l&apos;adresse <a rel="noopener" href="mailto:operation.environnement@gmail.com">operation.environnement@gmail.com</a></p> 						 
+						<div class="card shadow-sm">
+							<div class="card-body">
+								<form action="https://formspree.io/operation.environnement@gmail.com" method="post">
+									<fieldset id="fs-frm-inputs">
+										<div class="form-group">
+											<label for="InputEmail">Votre eMail</label>
+											<input oninvalid="this.setCustomValidity('Please Enter valid email')" oninput="setCustomValidity('')" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Entrez votre eMail (non obligatoire)" name="email"/>
+											<small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse email. D'ailleurs, elle n'est pas obligatoire pour utiliser ce formulaire.</small>
+										</div>
+										<div class="form-group"> 
+											<label for="Titre">Titre de votre message</label>											 
+											<textarea oninvalid="this.setCustomValidity('Merci de bien vouloir saisir un Titre')" oninput="setCustomValidity('')" required placeholder="exemple: Signalement de bruit sur Corbiac le 11 février 2020 vers 11H00" required="" class="form-control" rows="1" name="titre" id="titre"></textarea> 
+										</div>
+										<div class="form-group"> 
+											<label for="Message">Contenu de votre Message</label>											 
+											<textarea oninvalid="this.setCustomValidity('Merci de bien vouloir saisir un Message')" oninput="setCustomValidity('')" placeholder="exemple: Bruit de vrombissement continu en provenance de la zone aéroport entendu de 11H00 à 12H30 le 11 février 2020. Ce n'était pas un avion." required class="form-control" rows="3" name="message" id="message"></textarea> 
+										</div>
+									</fieldset>
+									<button type="submit" class="btn btn-primary">Envoyer votre message</button>
+									<small id="SendHelp" class="form-text text-muted">Après avoir cliqué sur <b>Envoyer votre message</b>, vous serez redirigé vers le site <a href="http://formspree.io/"><b>formspree.io</b></a> dont nous utilisons les services pour la redirection du contenu des formulaires vers notre adresse eMail.</small>
+								</form>
+							</div>
+						</div>
+						<p style="margin-top: 30px;"><b>Important</b>: Vous pouvez également nous joindre directement par <a rel="noopener" href="mailto:operation.environnement@gmail.com">EMAIL</a> à l&apos;adresse <a rel="noopener" href="mailto:operation.environnement@gmail.com">operation.environnement@gmail.com</a></p>
+						<p>Retrouvez les informations d'Opération Environnement sur <a rel="noopener" href="https://twitter.com/ope_envir_stmed" target="_blank">TWITTER</a> &gt; <a rel="noopener" href="https://twitter.com/ope_envir_stmed" target="_blank">@ope_envir_stmed</a></p> 						 
 					</div>
 				</div>
 			</div>
