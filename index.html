@@ -204,9 +204,9 @@
 								<form action="https://formspree.io/operation.environnement@gmail.com" method="post">
 									<fieldset id="fs-frm-inputs">
 										<div class="form-group">
-											<label for="InputEmail">Votre eMail</label>
-											<input oninvalid="this.setCustomValidity('Please Enter valid email')" oninput="setCustomValidity('')" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Entrez votre eMail (non obligatoire)" name="email"/>
-											<small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse email. D'ailleurs, elle n'est pas obligatoire pour utiliser ce formulaire.</small>
+											<label for="InputEmail">Votre adresse eMail</label>
+											<input oninvalid="this.setCustomValidity('Please Enter valid email')" oninput="setCustomValidity('')" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Non obligatoire pour utiliser ce formulaire." name="email"/>
+											<small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse email.</small>
 										</div>
 										<div class="form-group"> 
 											<label for="Titre">Titre de votre message</label>											 
@@ -214,7 +214,7 @@
 										</div>
 										<div class="form-group"> 
 											<label for="Message">Contenu de votre Message</label>											 
-											<textarea oninvalid="this.setCustomValidity('Merci de bien vouloir saisir un Message')" oninput="setCustomValidity('')" placeholder="exemple: Bruit de vrombissement continu en provenance de la zone aéroport entendu de 11H00 à 12H30 le 11 février 2020. Ce n'était pas un avion." required class="form-control" rows="3" name="message" id="message"></textarea> 
+											<textarea oninvalid="this.setCustomValidity('Merci de bien vouloir saisir un Message')" oninput="setCustomValidity('')" placeholder="exemple: Bruit de vrombissement continu en provenance de la zone aéroport entendu de 11H00 à 12H30 le 11 février 2020. Ce n'était pas un avion." required class="form-control" rows="10" name="message" id="message"></textarea> 
 										</div>
 									</fieldset>
 									<button type="submit" class="btn btn-primary">Envoyer votre message</button>
