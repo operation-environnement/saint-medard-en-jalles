@@ -1,4 +1,6 @@
-overflow-x: hidden;
+body, html {
+	overflow-x: hidden;
+}
 
 .section-std h2 {
     margin-bottom: 20px;
