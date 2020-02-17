@@ -1,5 +1,6 @@
-body, html {
-	overflow-x: hidden;
+body,
+html {
+    overflow-x: hidden;
 }
 
 .section-std h2 {
@@ -46,4 +47,20 @@ section.section-std {
 
 .subsection {
     padding-bottom: 30px;
+}
+
+.h2-title {
+    color: #ffffff;
+    display: inline-block;
+    background: linear-gradient(90deg, #76b852, #8DC26F);
+    text-transform: uppercase;
+    padding: 12px 20px;
+}
+
+.h2-title-news {
+    color: #ffffff;
+    display: inline-block;
+    background: #F2552C;
+    text-transform: uppercase;
+    padding: 12px 20px;
 }
